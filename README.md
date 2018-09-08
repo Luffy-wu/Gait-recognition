@@ -2,7 +2,7 @@
 My research focused on gait recognition in machine learning lab of Wuhan University, aiming to collect tri-axial accelerometer and gyroscope signals, performing processing and feature extraction, developing CNN model for identification. The accuracy of the optimal model on the out-of-sample test reached 93.4%.  
 ### Step 1: Collecting tri-axial accelerometer and gyroscope signals of walking
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%201.png)    
-&emsp;&emsp;Acceleration unit signal for X, Y and Z axes
+<center>Acceleration unit signal for X, Y and Z axes</center>
 ### Step 2: Preprocessing and feature extraction  
 •	Removed unstable signals at the beginning and end of walking
 •	Segmented data into 128 lines
