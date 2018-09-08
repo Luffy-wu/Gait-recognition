@@ -3,14 +3,15 @@ My research focused on gait recognition in machine learning lab of Wuhan Univers
 ### Step 1: Collecting tri-axial accelerometer and gyroscope signals of walking
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%201.png)      
 ### Step 2: Preprocessing and feature extraction  
-•	Removed unstable signals at the beginning and end of walking
-•	Segmented data into 128 lines
-•	Normalized data and filtered data noise using median filters
-•	Matched it with one-hot data tags, then randomly shuffled it, divided it into training & test set  
+•	Removed unstable signals at the beginning and end of walking  
+•	Segmented data into 128 lines  
+•	Normalized data and filtered data noise using median filters  
+•	Matched it with one-hot data tags, then randomly shuffled it, divided it into training & test set    
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%202.png)    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input wave and filtered wave 
 ### Step 3: Constructing CNN model  
-Weight initialization-- convolution and pooling--dense layer--dropout--output layer--training and evaluating. Especially, used Relu in linear layers and sigmoid function in output layer and set up the batch set to randomly select a small subset for training and used Adam optimizer to accelerate training.  
+Weight initialization-- convolution and pooling--dense layer--dropout--output layer--training and evaluating.   
+Especially, used Relu in linear layers and sigmoid function in output layer and set up the batch set to randomly select a small subset for training and used Adam optimizer to accelerate training.  
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%203.png)   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Network structure of constructed CNN model  
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%204.png)   
