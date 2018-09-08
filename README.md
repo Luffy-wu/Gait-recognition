@@ -20,5 +20,5 @@ In addition, respectively set up a one-channel, three-channel, and six-channel i
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%205.png)   
 ### Step 4: Train the model  
 Research experiments found that the accuracy of the optimal model on out-of-sample test reached 93.4%, indicating that CNN model can well identify gait characteristics based on inertial signals. Meanwhile, it found that the standardized data can exclude noise and outliers to a certain extent. Compared with unstandardized raw data, it can significantly improve recognition accuracy. In addition, the longitudinal joint of accelerometer and gyroscope signals   in X, Y, and Z axes can achieve effective fusion of features in three directions, and further enhance recognition accuracy. Through comparison among one-channel, three-channel, and six-channel models, it was found that three channels can significantly improve accuracy, but the further promotion effect of six channels is minimal.  
-![image](https://github.com/Luffy-wu/picture/blob/master/图片%206.png)。
+![image](https://github.com/Luffy-wu/picture/blob/master/图片%206.png)
 ![image](https://github.com/Luffy-wu/picture/blob/master/图片%207.png)
